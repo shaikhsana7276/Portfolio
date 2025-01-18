@@ -1,0 +1,164 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-color: #1b1464; /* Updated color */
+    color: #fff;
+  }
+  
+  /* Portfolio Container */
+  .portfolio-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .portfolio-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #ffd700;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .portfolio-header .portfolio-tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  /* Profile Section */
+  .profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    width: 250px; /* Increased size */
+    height: 250px; /* Increased size */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile-container p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  /* About Me Section */
+  .portfolio-section h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ddd; /* Slightly lighter text color for readability */
+  }
+  
+  /* Section Styles */
+  .portfolio-section {
+    background: rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-section ul {
+    list-style-type: disc; /* Bullet points */
+    padding-left: 20px; /* Padding for bullets */
+  }
+  
+  .portfolio-section ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Link Styles */
+  a {
+    color: #00bfff; /* Updated link color */
+    text-decoration: underline; /* Added underline */
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #ffd700; /* Hover color */
+  }
+  
+  /* Button Styles */
+  .portfolio-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+    text-align: center; /* Center the text inside the button */
+  }
+  
+  /* Download Resume Button */
+  .download-btn {
+    background-color: #4caf50; /* Green color for download button */
+    color: white;
+  }
+  
+  .download-btn:hover {
+    background-color: #45a049;
+    color: #fff;
+  }
+  
+  /* Hire Me Button */
+  .hire-btn {
+    background-color: #aa1923; /* Red color for Hire Me button */
+    color: white;
+  }
+  
+  .hire-btn:hover {
+    background-color: #8c1612;
+    color: #fff;
+  }
+  
+  /* Footer Section */
+  .portfolio-footer {
+    text-align: center;
+    margin-top: 50px; /* Increased margin for separation */
+    font-size: 1.1rem; /* Increased font size */
+    color: #24ed2b; /* Changed footer text color */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolio-header h1 {
+      font-size: 2rem;
+    }
+  
+    .portfolio-section h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
