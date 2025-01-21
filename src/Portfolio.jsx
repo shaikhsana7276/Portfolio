@@ -1,8 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import profilePhoto from "./portfolioImg.jpg";
-import resume from "./assets/resume.pdf"
-
+ import resume from "./resume.pdf"
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
