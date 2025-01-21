@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import profilePhoto from "./portfolioImg.jpg";
-import resume from "./resume.pdf";
+import resume from "./assets/resume.pdf";
 
 
 const Portfolio = () => {
