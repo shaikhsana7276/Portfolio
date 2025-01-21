@@ -1,7 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
 import profilePhoto from "./portfolioImg.jpg";
- import resume from "./resume.pdf"
+import resume from "./resume.pdf";
+
+
 const Portfolio = () => {
   return (
     <div className="portfolio-container">
@@ -19,11 +21,7 @@ const Portfolio = () => {
           </p>
         </div>
         {/* Download Resume Button */}
-        <a
-          href={resume}
-          className="portfolio-btn download-btn"
-          download
-        >
+        <a href={resume} className="portfolio-btn download-btn" download>
           Download Resume
         </a>
       </header>
@@ -87,7 +85,9 @@ const Portfolio = () => {
           <h2>Contact</h2>
           <p>
             Email:{" "}
-            <a href="mailto:shaikhsana7276@gmail.com">shaikhsana7276@gmail.com</a>
+            <a href="mailto:shaikhsana7276@gmail.com">
+              shaikhsana7276@gmail.com
+            </a>
           </p>
           <p>
             Phone: <a href="tel:+7276889820">7276889820</a>
