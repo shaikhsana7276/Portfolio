@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import profilePhoto from "./portfolioImg.jpg";
+import resume from "./assets/resume.pdf"
 
 const Portfolio = () => {
   return (
@@ -20,7 +21,7 @@ const Portfolio = () => {
         </div>
         {/* Download Resume Button */}
         <a
-          href="/path/to/resume.pdf"
+          href={resume}
           className="portfolio-btn download-btn"
           download
         >
